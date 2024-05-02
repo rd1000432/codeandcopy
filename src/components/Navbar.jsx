@@ -11,7 +11,9 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center h-40 max-w-[1240px] mx-auto px-4 text-white">
-      <img className="w-[190px]" src={CCCLogo} alt="/" />
+      <a href="/">
+        <img className="w-[190px]" src={CCCLogo} alt="/" />
+      </a>
       <ul className="hidden md:flex">
         <li className="p-4">
           <a href="#home">Home</a>

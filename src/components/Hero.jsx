@@ -27,9 +27,12 @@ const Hero = () => {
           We will build your site, optimise its content and grow your online
           presence.
         </p>
-        <button className="bg-[#56e5e5] w-[200px] rounded-md font-medium my-6 mx-auto px-7 py-3 text-black">
+        <a
+          href="#packages"
+          className="bg-[#56e5e5] w-[200px] rounded-md font-medium my-6 mx-auto px-7 py-3 text-black"
+        >
           Get Started
-        </button>
+        </a>
       </div>
     </div>
   );
