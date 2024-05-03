@@ -29,7 +29,7 @@ const ContentCreation = () => {
             Copywriting and Content Creation techniques. Namely keyword
             research, content creation as well as creating SEO optimized blog
             articles in Wordpress using Yoast. It is important to note, that we
-            always ask for permission of our clients first before using AI
+            always ask for permission from our clients first before using AI
             content creation tools such as Chat GPT. However, we recommend and
             encourage the use of AI content optimization tools to improve Google
             ranking (such as Clearscope or Neuron Writer).

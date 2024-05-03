@@ -33,7 +33,7 @@ const Cards = () => {
         </div>
         <div className="w-full bg-gray-100 shadow-xl flex flex-col p-4 my-8 md:my-0 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-20 mx-auto mt-[-3rem] bg-white"
+            className="w-20 mx-auto mt-[-3rem] bg-transparent"
             src={Triple}
             alt="/"
           />
