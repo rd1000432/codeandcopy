@@ -13,8 +13,7 @@ const Footer = () => {
       <div>
         <img className="w-[190px]" src={CCCLogo} alt="/" />
         <p className="py-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          odit.
+          We create Code. We create Content. We create your Website.
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
           <FaFacebookSquare size={30} />
