@@ -14,15 +14,20 @@ const Cards = () => {
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Single User</h2>
-          <p className="text-center text-4xl font-bold">$149</p>
+          <p className="text-center text-4xl font-bold">
+            Content <br /> Creation
+          </p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
             <p className="py-2 border-b mx-8">1 Granted User</p>
             <p className="py-2 border-b mx-8">Send up to blah blah</p>
           </div>
-          <button className="bg-[#56e5e5] text-black w-[200px] rounded-md font-medium mx-auto my-6 px-7 py-3">
-            Start Trial
-          </button>
+          <a
+            href="#contact"
+            className="bg-[#56e5e5] text-center text-black w-[200px] rounded-md font-medium mx-auto my-6 px-7 py-3"
+          >
+            Learn more
+          </a>
         </div>
         <div className="w-full bg-gray-100 shadow-xl flex flex-col p-4 my-8 md:my-0 rounded-lg hover:scale-105 duration-300">
           <img
@@ -31,15 +36,20 @@ const Cards = () => {
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Double User</h2>
-          <p className="text-center text-4xl font-bold">$149</p>
+          <p className="text-center text-4xl font-bold">
+            Content & <br /> Website
+          </p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
             <p className="py-2 border-b mx-8">1 Granted User</p>
             <p className="py-2 border-b mx-8">Send up to blah blah</p>
           </div>
-          <button className="bg-[#c0ff71] text-black w-[200px] rounded-md font-medium mx-auto my-6 px-7 py-3">
-            Start Trial
-          </button>
+          <a
+            href="#contact"
+            className="bg-[#c0ff71] text-center text-black w-[200px] rounded-md font-medium mx-auto my-6 px-7 py-3"
+          >
+            Learn more
+          </a>
         </div>
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
@@ -48,15 +58,20 @@ const Cards = () => {
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Triple User</h2>
-          <p className="text-center text-4xl font-bold">$149</p>
+          <p className="text-center text-4xl font-bold">
+            Content, Website <br /> & Content Plan
+          </p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
             <p className="py-2 border-b mx-8">1 Granted User</p>
             <p className="py-2 border-b mx-8">Send up to blah blah</p>
           </div>
-          <button className="bg-[#56e5e5] text-black w-[200px] rounded-md font-medium mx-auto my-6 px-7 py-3">
-            Start Trial
-          </button>
+          <a
+            href="#contact"
+            className="bg-[#56e5e5] text-center text-black w-[200px] rounded-md font-medium mx-auto my-6 px-7 py-3"
+          >
+            Learn more
+          </a>
         </div>
       </div>
     </div>

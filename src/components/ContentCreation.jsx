@@ -19,9 +19,12 @@ const ContentCreation = () => {
             aliquam saepe, vero odio pariatur autem. Quia voluptatem omnis
             perspiciatis odio praesentium laborum!
           </p>
-          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 px-7 py-3">
+          <a
+            href="#contact"
+            className="bg-black text-[#00df9a] text-center w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 px-7 py-3"
+          >
             Get Started
-          </button>
+          </a>
         </div>
       </div>
     </div>

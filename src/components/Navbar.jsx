@@ -38,13 +38,28 @@ const Navbar = () => {
             : 'fixed left-[-100%]'
         }
       >
-        <img className="w-[150px] mx-auto" src={CCCLogo} alt="/" />
+        <img className="w-[150px] mx-auto mt-4" src={CCCLogo} alt="/" />
         <ul className="uppercase p-4">
-          <li className="p-4 border-b border-gray-600">Company</li>
-          <li className="p-4 border-b border-gray-600">Home</li>
-          <li className="p-4 border-b border-gray-600">Resources</li>
-          <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4">Contact</li>
+          <li className="p-4 border-gray-600">
+            <a onClick={handleNav} href="#home">
+              Home
+            </a>
+          </li>
+          <li className="p-4 border-gray-600">
+            <a onClick={handleNav} href="#services">
+              Services
+            </a>
+          </li>
+          <li className="p-4 border-gray-600">
+            <a onClick={handleNav} href="#packages">
+              Packages
+            </a>
+          </li>
+          <li className="p-4 border-gray-600">
+            <a onClick={handleNav} href="#contact">
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
     </div>
