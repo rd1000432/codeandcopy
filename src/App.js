@@ -6,6 +6,7 @@ import Newsletter from './components/Newsletter';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Cards />
       <Contact />
       <Footer />
+      <Projects />
     </div>
   );
 }
