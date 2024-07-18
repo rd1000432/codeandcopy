@@ -30,7 +30,7 @@ export class ProjectItem extends Component {
   }
   render() {
     const { title, excerpt } = this.props.project;
-    const { author, imgUrl, isLoaded } = this.state;
+    const { author, imgUrl } = this.state;
     return (
       <div>
         <h2>{title.rendered}</h2>
