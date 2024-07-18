@@ -21,7 +21,7 @@ export class Projects extends Component {
   }
   render() {
     console.log(this.state);
-    const { projects, isLoaded } = this.state;
+    const { projects } = this.state;
     return (
       <>
         <div>
