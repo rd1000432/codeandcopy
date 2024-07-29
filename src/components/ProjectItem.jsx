@@ -12,7 +12,7 @@ export class ProjectItem extends Component {
     project: PropTypes.object.isRequired,
   };
   componentDidMount() {
-    const { featured_media, author, link } = this.props.project;
+    const { featured_media, author } = this.props.project;
     const getImageUrl = axios.get(
       `https://wordpress-405477-4673781.cloudwaysapps.com/wp-json/wp/v2/media/${featured_media}`
     );
