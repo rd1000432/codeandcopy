@@ -16,9 +16,9 @@ function App() {
       <ContentCreation />
       <Newsletter />
       <Cards />
+      <Projects />
       <Contact />
       <Footer />
-      <Projects />
     </div>
   );
 }

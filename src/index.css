@@ -7,3 +7,30 @@ body {
 }
 
 * { scroll-behavior: smooth }
+
+swiper-container {
+    width: 800px;
+    height: 400px; 
+}
+
+swiper-slide {
+   width: 100%;
+   height: 100%;
+}
+
+swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-excerpt p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 600px;
+}
+
+#projects h1 {
+    text-align: center;
+}

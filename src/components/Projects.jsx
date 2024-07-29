@@ -24,10 +24,15 @@ export class Projects extends Component {
     const { projects } = this.state;
     return (
       <>
-        <div>
-          {projects.map((project) => (
-            <ProjectItem key={project.id} project={project} />
-          ))}
+        <div id="projects" className="w-full py-[1rem] px-2 bg-white">
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+            Some selected projects
+          </h1>
+          <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
+            {projects.map((project) => (
+              <ProjectItem key={project.id} project={project} />
+            ))}
+          </div>
         </div>
         ;
       </>
