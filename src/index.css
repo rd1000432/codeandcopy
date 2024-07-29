@@ -34,3 +34,9 @@ swiper-slide img {
 #projects h1 {
     text-align: center;
 }
+
+@media only screen and (max-width: 640px) {
+    .project-grid {
+        display: block!important;
+    }
+  }

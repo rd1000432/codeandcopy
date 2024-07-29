@@ -37,7 +37,7 @@ export class ProjectItem extends Component {
       <>
         <div className="project-cnc w-full border-2 border-black-600 flex flex-col p-4 my-4 hover:scale-105 duration-300">
           <img
-            className="mx-auto"
+            className="mx-auto project-image"
             loading="lazy"
             src={imgUrl}
             alt={title.rendered}

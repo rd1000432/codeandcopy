@@ -28,7 +28,7 @@ export class Projects extends Component {
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Some selected projects
           </h1>
-          <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
+          <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 sm:grid-cols-1 gap-8 project-grid">
             {projects.map((project) => (
               <ProjectItem key={project.id} project={project} />
             ))}
