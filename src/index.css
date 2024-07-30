@@ -3,25 +3,27 @@
 @tailwind utilities;
 
 body {
-    background-color: #120301;
+  background-color: #120301;
 }
 
-* { scroll-behavior: smooth }
+* {
+  scroll-behavior: smooth;
+}
 
 swiper-container {
-    width: 800px;
-    height: 400px; 
+  width: 800px;
+  height: 400px;
 }
 
 swiper-slide {
-   width: 100%;
-   height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .project-excerpt p {
@@ -32,11 +34,47 @@ swiper-slide img {
 }
 
 #projects h1 {
-    text-align: center;
+  text-align: center;
 }
 
-@media only screen and (max-width: 640px) {
-    .project-grid {
-        display: block!important;
+.m-bottom {
+  margin-bottom: -25px;
+}
+
+
+.loadingSpinnerContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.loadingSpinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #00cc66 transparent #00cc66 transparent;
+    border-radius: 50%;
+    animation: spin 1.2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
     }
   }
+
+@media only screen and (max-width: 640px) {
+  .project-grid {
+    display: block !important;
+  }
+}

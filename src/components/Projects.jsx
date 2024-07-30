@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import ProjectItem from './ProjectItem';
+import Spinner from './Spinner';
 export class Projects extends Component {
   state = {
     projects: [],
@@ -19,24 +20,34 @@ export class Projects extends Component {
       )
       .catch((err) => console.log(err));
   }
+
   render() {
     console.log(this.state);
     const { projects } = this.state;
-    return (
-      <>
-        <div id="projects" className="w-full py-[1rem] px-2 bg-white">
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Some selected projects
-          </h1>
-          <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 sm:grid-cols-1 gap-8 project-grid">
-            {projects.map((project) => (
-              <ProjectItem key={project.id} project={project} />
-            ))}
+
+    if (this.state.isLoaded) {
+      return (
+        <>
+          <div
+            id="projects"
+            className="w-full py-[1rem] px-2 bg-white m-bottom"
+          >
+            <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+              Some selected projects
+            </h1>
+
+            <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 sm:grid-cols-1 gap-8 project-grid">
+              {projects.map((project) => (
+                <ProjectItem key={project.id} project={project} />
+              ))}
+            </div>
           </div>
-        </div>
-        ;
-      </>
-    );
+          ;
+        </>
+      );
+    } else {
+      return <Spinner />;
+    }
   }
 }
 
